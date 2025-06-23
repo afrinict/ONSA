@@ -5,9 +5,10 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import Dashboard from "@/pages/dashboard";
 import Assets from "@/pages/assets";
+import WorkOrders from "@/pages/work-orders";
 import Maintenance from "@/pages/maintenance"; 
+import Analytics from "@/pages/analytics";
 import Locations from "@/pages/locations";
-import Reports from "@/pages/reports";
 import AuditTrail from "@/pages/audit-trail";
 import NotFound from "@/pages/not-found";
 
@@ -16,9 +17,10 @@ function Router() {
     <Switch>
       <Route path="/" component={Dashboard} />
       <Route path="/assets" component={Assets} />
+      <Route path="/work-orders" component={WorkOrders} />
       <Route path="/maintenance" component={Maintenance} />
+      <Route path="/analytics" component={Analytics} />
       <Route path="/locations" component={Locations} />
-      <Route path="/reports" component={Reports} />
       <Route path="/audit-trail" component={AuditTrail} />
       <Route component={NotFound} />
     </Switch>

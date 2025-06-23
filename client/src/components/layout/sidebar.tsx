@@ -7,15 +7,17 @@ import {
   MapPin, 
   BarChart3, 
   History, 
-  User 
+  User,
+  ClipboardList
 } from "lucide-react";
 
 const navigation = [
   { name: "Dashboard", href: "/", icon: LayoutDashboard },
   { name: "Assets", href: "/assets", icon: Package },
+  { name: "Work Orders", href: "/work-orders", icon: ClipboardList },
   { name: "Maintenance", href: "/maintenance", icon: Wrench },
+  { name: "Analytics", href: "/analytics", icon: BarChart3 },
   { name: "Locations", href: "/locations", icon: MapPin },
-  { name: "Reports", href: "/reports", icon: BarChart3 },
   { name: "Audit Trail", href: "/audit-trail", icon: History },
 ];
 
