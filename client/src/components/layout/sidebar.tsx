@@ -8,7 +8,10 @@ import {
   BarChart3, 
   History, 
   User,
-  ClipboardList
+  ClipboardList,
+  Shield,
+  Archive,
+  Building
 } from "lucide-react";
 
 const navigation = [
@@ -16,6 +19,9 @@ const navigation = [
   { name: "Assets", href: "/assets", icon: Package },
   { name: "Work Orders", href: "/work-orders", icon: ClipboardList },
   { name: "Maintenance", href: "/maintenance", icon: Wrench },
+  { name: "Inventory", href: "/inventory", icon: Archive },
+  { name: "Vendors", href: "/vendors", icon: Building },
+  { name: "Compliance", href: "/compliance", icon: Shield },
   { name: "Analytics", href: "/analytics", icon: BarChart3 },
   { name: "Locations", href: "/locations", icon: MapPin },
   { name: "Audit Trail", href: "/audit-trail", icon: History },
